@@ -8,26 +8,26 @@ body,html{
     width: 100%;
     font-family: 'Gilroy';
 }
+body{
+    overflow-x: hidden;
+}
 .page1{
     height: 100%;
     width: 100%;
-    background-color: rgb(232, 194, 144);
+    background-color: black;
 }
 .page2{
     height: 100%;
     width: 100%;
-    background-color: rgb(185, 162, 132);
+    background-color:skyblue;
 }
 .page3{
     height: 100%;
     width: 100%;
-    background-color: rgb(171, 123, 61);
+    background-color: black;
 }
-.page2 img{
-    height: 100%;
-    width: 20%;
-    object-fit: cover;
-    position:relative;
-    left: 50%;
-    transform: translateX(-50%);
+.page2 h1{
+    font-size: 40vw;
+    font-weight: 500;
+   
 }
